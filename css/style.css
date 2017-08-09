@@ -1,0 +1,60 @@
+body {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  transition: ease-in-out;
+}
+.loading-container {
+  width: 500px;
+  height: 500px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.loader {
+  background-image: url('../SunLoader.SVG');
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  animation: spin 5s infinite linear; 
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.container {
+  display: none;
+  position: absolute;
+  background-color: rgba(256, 256, 256, 0.8);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 5px 5px 10px black;
+  padding: 20px;
+}
+.root {
+  margin: 0 25px 25px 25px;
+}
+.tooltip {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 2px;
+  text-align: center;
+  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  font: 10px sans-serif;
+  line-height: 10px;
+}
+.month {
+  font-size: 12px;
+  line-height: 12px;
+}
+.well {
+  fill: black;
+}
+.legend {
+  font-size: 10px;
+}

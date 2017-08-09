@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Global Surface Temperature</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="Global Surface Temperature" content="Visualized using d3.js.">
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css?v=1.0">
+  
+  <noscript>You must enable Javascript to run this application.</noscript>
+
+</head>
+
+<body>
+  <div class="loading-container">
+    <div class="loader"></div>
+    <div>Loading...</div>
+  </div>
+  
+  <div class="container">
+    <div class="headers">
+      <h1> 262 Years of Global Land Surface Temperatures </h1>
+      <div> 1753 - 2015 </div>
+      <div> Anomalies relative to the January 1951 - December 1980 average.</div>
+      <div>Estimated Jan 1951-Dec 1980 absolute temperature ℃: 8.66 +/- 0.07 </div>
+    </div>
+    <svg class="root"></svg>
+  </div>
+
+
+  
+  
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <script src="js/index.js"></script>
+</body>
+</html>
