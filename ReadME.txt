@@ -1,1 +1,1 @@
-A d3.js-based visualization of Doping allegations and cycling times for the Alpe d'Huez Tour de France. 
+A d3.js-based visualization of land surface temperature variance.
