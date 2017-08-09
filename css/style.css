@@ -14,7 +14,7 @@ body {
   margin: auto;
 }
 .loader {
-  background-image: url('../SunLoader.svg');
+  background-image: url('heatmap/SunLoader.svg');
   width: 300px;
   height: 300px;
   margin: auto;
