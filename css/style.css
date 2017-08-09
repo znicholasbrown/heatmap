@@ -14,7 +14,7 @@ body {
   margin: auto;
 }
 .loader {
-  background-image: url('../SunLoader.SVG');
+  background-image: url('../SunLoader.svg');
   width: 300px;
   height: 300px;
   margin: auto;
